@@ -2,4 +2,8 @@
 
 let count = 0;
 
-count = count + 1
+function Increment() {
+    count++;
+    document.getElementById("count").innerText = count;
+    return count;
+}
